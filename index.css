@@ -1,0 +1,550 @@
+* {
+    box-sizing: border-box}
+    @font-face {
+    font-family: Montserrat;
+    src: url('montserrat/Montserrat-Regular.otf');
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-img {
+    width: 50%;
+    margin-top: 15px;
+}
+.navbar-link-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-left: 150px;
+}
+.navbar-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-link li {
+    margin: 10px;
+    list-style-type: none;
+}
+.navbar-link a {
+    text-decoration: none;
+    color: black;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-top: -50px;
+    margin-bottom: 30px;
+}
+.banner {
+    margin-left: 100px;
+}
+.banner-img {
+    display: flex;
+    justify-content: space-between;
+}
+.banner-img img {
+   width: 60%;
+   height: 60%;
+}
+.vague {
+    margin-top: 20px;
+    margin-left: -150px;
+    height: 200px;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+}
+.banner-paragraph {
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+    width: 50%;
+}
+.banner-paragraph p {
+    text-align: center justify;
+    margin-top: -10px;
+}
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.button-group button {
+    border-radius: 50px;
+    border-color: crimson;
+    background-color: white;
+    color: crimson;
+    height: 40px;
+    width: 150px;
+    outline-style: none;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 5px;
+    text-align: center;
+}
+.slides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+}
+.slides div {
+   display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 13px;
+    margin: 100px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 15px;
+    box-shadow: 0 10px 15px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+    color: #4a4a4a;
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+
+  
+.stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    background-color: rgb(247, 249, 252);
+}
+.stats-paragraph {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.stats-img {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stats-img img {
+    width: 65%;
+    height: 65%;
+}
+.stats button {
+    width: 120px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: crimson;
+    color: white;
+    outline-style: none;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 5px;
+    text-align: center;
+}
+
+
+
+
+.feature {
+    display: flex;
+    margin: 100px;
+    align-items: center;
+    margin-top: -30px;
+}
+.feature1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 35%;
+    height: 450px;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 250px;
+    height: 100px;
+    margin-top: 50px;
+    border-radius: 2px;
+    box-shadow: -5px 1px 2px rgba(235, 230, 230, 0.1), 0 0 0 1px rgba(202, 197, 197, 0.1);
+}
+.card h4 {
+    text-align: center;
+    margin-top: 2px;
+}
+.card p {
+    text-align: right;
+    margin-top: -30px;
+    padding-right: 30px;
+    margin-right: 35px;
+    color: #d1cece;
+    font-size: 15px;
+}
+.card img {
+    margin-left: 210px;
+    margin-bottom: 20px;
+    margin-top: -50px;
+}
+.feature2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 450px;
+}
+.feature2 img {
+    width: 100%;
+    height:100%;
+    margin-top: 40px;
+}
+.feature3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 35%;
+    height: 450px;
+}
+.cardX {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 250px;
+    height: 100px;
+    margin-top: 50px;
+    border-radius: 2px;
+    box-shadow: -5px 1px 2px rgba(235, 230, 230, 0.1), 0 0 0 1px rgba(202, 197, 197, 0.1);
+}
+.cardX h4 {
+    text-align: center;
+    margin-top: 2px;
+}
+.cardX p {
+    text-align: left;
+    margin-top: -30px;
+    margin-left: 60px;
+    color: #d1cece;
+    font-size: 15px;
+}
+.cardX img {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: -50px;
+}
+
+
+
+.team {
+    background-color: rgb(247, 249, 252);
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    height: 200px;
+    margin-top: unset;
+    margin-bottom: unset;
+}
+.post{
+    width: 40%;
+    height: 160px;
+    background-color: #fff;
+    box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+    color: #4a4a4a;
+    display: flex;
+}
+.post-img{
+    height: 100%;
+    width: 160px;
+}
+.post-content{
+    margin-left: 20px;
+}
+.social-links img {
+    width: 6%;
+    height: 6%;
+}
+.post-content h2 {
+    margin-top: 10px;
+}
+.post-content h6 {
+    margin-top: -10px;
+}
+.post-content p {
+    margin-top: -10px;
+}
+
+
+
+.pricing {
+    width: 20%;
+    padding: 0 10px;
+  }
+  
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-left: -50px;
+}
+  
+  .pricing-container:after {
+    content: "";
+    display: grid;
+    clear: both;
+  }
+  
+  .pricing-card {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: column;
+  }
+  .money {
+      color: crimson;
+      font-weight: normal;
+      font-size: 20px;
+  }
+  p{
+      margin: 8px;
+      font-size: small;
+  }
+  button {
+      background-color: crimson;
+      color: ghostwhite;
+      border-radius: 20px;
+      border: crimson;
+      padding: 2%;
+      width: 90px;
+      height: 30px;
+      text-align: center;
+      font-size: 2px;
+  }
+
+  .circle {
+    position: relative;
+    box-shadow: -5px 1px 2px rgba(253, 253, 253, 0.1), 0 0 0 1px rgba(202, 197, 197, 0.1);
+    background-color: rgb(248, 248, 248);
+    margin: 20px auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+  }
+  
+  .circle img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+
+
+.team-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    background-color: crimson;
+}
+.team1 {
+    margin : 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 80%;
+    background-color: white;
+    border-radius: 5px;
+}
+.team-circle {
+    position: relative;
+    box-shadow: -5px 1px 2px rgba(253, 253, 253, 0.1), 0 0 0 1px rgba(202, 197, 197, 0.1);
+    background-color: rgb(248, 248, 248);
+    margin: 20px auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.team-circle img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+
+
+
+.freeTrial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 100px;
+}
+.freeTrial-par {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    margin: 100px;
+}
+.register {
+    background-color: crimson;
+      color: ghostwhite;
+      border-radius: 20px;
+      border: crimson;
+      padding: 2%;
+      width: 90px;
+      height: 30px;
+      text-align: center;
+      font-size: 2px;
+}
+
+
+
+
+
+
+.contact-container {
+    width: 100%;
+    height: 350px;
+    background-color: rgb(247, 249, 252);
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+.form1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.form-img {
+    width: 30%
+}
+.form-img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    height: 200px;
+    margin: 100px;
+    margin-bottom: -100px;
+}
+.footer1 img {
+    width: 10%;
+    height: 10%;
+    margin-right: 50px;
+}
+.sl {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: 150px;
+    margin-top: -100px;
+}
+.footer1 p {
+    text-align: left;
+    margin-top: -100px;
+}
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: column;
+    width: 25%;
+    height: 200px;
+    margin-right: 200px;
+}
+.footer3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: column;
+    width: 25%;
+    height: 200px;
+    margin-right: 200px;
+}
+.footer4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: column;
+    width: 25%;
+    height: 200px;
+}
+.bar {
+    width: 95%;
+    margin-right: 15px;
+}
+.bar-p {
+    text-align: center;
+}
+.bar-p span {
+    color: crimson;
+}
